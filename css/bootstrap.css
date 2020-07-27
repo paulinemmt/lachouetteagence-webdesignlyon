@@ -6555,7 +6555,6 @@ button.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:hover {
     color: #fff;
     background-color: #a94442;
-    border-color: #a94442
 }
 
 .list-group-item-heading {
@@ -6872,7 +6871,6 @@ button.list-group-item-danger.active:hover {
 .panel-primary>.panel-heading {
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
 }
 
 .panel-primary>.panel-heading+.panel-collapse>.panel-body {
@@ -7807,9 +7805,6 @@ button.close {
     float: left !important
 }
 
-.hide {
-    display: none !important
-}
 
 .show {
     display: block !important
@@ -7819,13 +7814,6 @@ button.close {
     visibility: hidden
 }
 
-.text-hide {
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0
-}
 
 .hidden {
     display: none !important
@@ -7880,16 +7868,10 @@ button.close {
 @media (max-width:767px) {
     .visible-xs-block {
         display: block !important
-    }
-}
-
-@media (max-width:767px) {
+    }    
     .visible-xs-inline {
         display: inline !important
-    }
-}
-
-@media (max-width:767px) {
+    }    
     .visible-xs-inline-block {
         display: inline-block !important
     }
@@ -7914,16 +7896,10 @@ button.close {
 @media (min-width:768px) and (max-width:991px) {
     .visible-sm-block {
         display: block !important
-    }
-}
-
-@media (min-width:768px) and (max-width:991px) {
+    }    
     .visible-sm-inline {
         display: inline !important
-    }
-}
-
-@media (min-width:768px) and (max-width:991px) {
+    }    
     .visible-sm-inline-block {
         display: inline-block !important
     }
@@ -7948,16 +7924,10 @@ button.close {
 @media (min-width:992px) and (max-width:1199px) {
     .visible-md-block {
         display: block !important
-    }
-}
-
-@media (min-width:992px) and (max-width:1199px) {
+    }    
     .visible-md-inline {
         display: inline !important
-    }
-}
-
-@media (min-width:992px) and (max-width:1199px) {
+    }    
     .visible-md-inline-block {
         display: inline-block !important
     }
@@ -7983,15 +7953,9 @@ button.close {
     .visible-lg-block {
         display: block !important
     }
-}
-
-@media (min-width:1200px) {
     .visible-lg-inline {
         display: inline !important
     }
-}
-
-@media (min-width:1200px) {
     .visible-lg-inline-block {
         display: inline-block !important
     }

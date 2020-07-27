@@ -795,9 +795,10 @@ h4 {
 
 .bold-link {
     font-weight: 900;
+}
+.bold-link:hover {
     text-decoration: underline!important;
 }
-
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -818,6 +819,9 @@ h4 {
 }
 .tc-grey{
     color:#303030!important;
+}
+.tc-orange-contact{
+    color:#101010!important;
 }
 .btn-atomic-tangerine {
     background: #F3976C;

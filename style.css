@@ -772,7 +772,9 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.grey{
+    color:#303030;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -826,11 +828,12 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #303030!important;
 }
 
 .ltc-white:hover {
     color: #303030!important;
+    text-decoration:underline;
 }
 .ltc-white.email-grey{
     color:#857A7A!important;

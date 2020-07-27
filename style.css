@@ -681,7 +681,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #303030!important;
 }
 
 .container {
@@ -816,7 +816,9 @@ h4 {
 .tc-orange{
     color:#fff!important;
 }
-
+.tc-grey{
+    color:#303030!important;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #303030!important;
@@ -836,10 +838,11 @@ h4 {
     text-decoration:underline;
 }
 .ltc-white.email-grey{
-    color:#857A7A!important;
+    color:#303030!important;
 }
 .ltc-white.email-grey:hover{
-    color: #364577!important;
+    color: #303030!important;
+    text-decoration:underline;
 }
 .ltc-atomic-tangerine {
     color: #F3976C!important;

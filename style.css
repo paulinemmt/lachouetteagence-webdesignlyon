@@ -155,7 +155,11 @@ a:hover {
 
 .l-bloc .navbar .page-link:hover{
     background: #F3976C;
-    color:#fff!important;
+    color:#303030!important;
+}
+.page-link:focus{
+    background: #F3976C;
+    color:#303030!important;
 }
 .cta{
     display:flex;
@@ -921,7 +925,7 @@ h4 {
     }
     .page-container,
     #hero-bloc {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         position: relative;
     }
     .bloc {

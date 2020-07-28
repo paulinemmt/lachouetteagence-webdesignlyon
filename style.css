@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /* outline: none!important; */
 }
 
 a:hover {
@@ -32,9 +32,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -66,9 +63,6 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
     background-size: auto!important;
 }
 
@@ -402,7 +396,6 @@ adress p{
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -494,9 +487,9 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
+/* button {
+    outline: none!important; 
+} */
 
 .btn-rd {
     border-radius: 40px;
@@ -572,7 +565,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Lucida;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -585,12 +578,10 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
 
@@ -683,7 +674,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", Arial, Lucida;
     font-weight: 400;
     color: #303030!important;
 }
@@ -720,7 +711,7 @@ a {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, Lucida;
 }
 
 .cta-hero {
@@ -864,7 +855,13 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
+.blockquote{
+    color:#303030;
+}
+.bold-text{
+    font-weight: bold;
+    z-index:100000;
+}
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
@@ -910,7 +907,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -928,10 +925,10 @@ h4 {
         overflow-x: hidden; 
         position: relative;
     }
-    .bloc {
+    /* .bloc {
         padding-left: env(safe-area-inset-left);
         padding-right: env(safe-area-inset-right);
-    }
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -940,8 +937,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
+        /* padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right); */
     }
     .cta{
         display:flex;
@@ -984,8 +981,6 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
     }
     .nav > li {
         margin-top: 0;
@@ -1022,7 +1017,6 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img {

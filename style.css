@@ -151,10 +151,6 @@ a:hover {
     background: #F3976C;
     color:#303030!important;
 }
-.page-link:focus{
-    background: #F3976C;
-    color:#303030!important;
-}
 .cta{
     display:flex;
     flex-direction:column;
